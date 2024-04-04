@@ -25,8 +25,6 @@
 					<div class="shop__filters" v-if="!loading">
 						<select 
 							:value="sortBy" 
-							name="" 
-							id=""
 							@change="$emit('update:sortBy', $event.target.value)"
 						>
 							<option disabled value="">Выберите способ сортировки</option>
@@ -82,7 +80,7 @@
 	}
 	.shop__top-group input {
 		padding-left: 32px;
-		background-image: url('../assets/images/search.svg');
+		background-image: url('/images/search.svg');
 		background-repeat: no-repeat;
 		background-position: 4% 50%;
 	}
