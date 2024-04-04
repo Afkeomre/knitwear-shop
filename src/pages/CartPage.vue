@@ -39,6 +39,7 @@
 
 			cart.value = [];
 			localStorage.clear();
+			window.scrollTo(0, 0);
 		} catch (err) {
 			console.log(err);
 		}
