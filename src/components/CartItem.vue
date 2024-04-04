@@ -17,7 +17,7 @@
 				<div class="cart-item__price">{{ price }} EUR</div>
 			</div>
 			<div class="cart-item__delete">
-				<img src="../assets/images/delete.svg" alt="Delete" @click="$emit('onClickRemove')">
+				<img src="/images/delete.svg" alt="Delete" @click="$emit('onClickRemove')">
 			</div>
 		</div>
 	</div>

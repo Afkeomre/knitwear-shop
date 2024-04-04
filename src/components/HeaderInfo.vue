@@ -12,7 +12,7 @@
 			</p>
 		</div>
 		<div class="header__info-img">
-			<img src="../assets/images/header-img.jpg" alt="Woman in sweater">
+			<img src="/images/header-img.jpg" alt="Woman in sweater">
 		</div>
 	</div>
 </template>

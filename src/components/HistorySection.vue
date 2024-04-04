@@ -22,7 +22,7 @@
 	.history {
 		color: #fff;
 		height: 542px;
-		background-image: url('../assets/images/history.jpg');
+		background-image: url('/images/history.jpg');
 		background-size: 1200px 542px; 
 		background-position: center;
 		background-repeat: no-repeat;

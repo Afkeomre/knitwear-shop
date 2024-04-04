@@ -35,7 +35,7 @@
 	.collections {
 		max-width: 1200px;
 		margin: 0 auto;
-		background-image: url('../assets/images/collections/woman.jpg'), url('../assets/images/collections/man.jpg');
+		background-image: url('/images/collections/woman.jpg'), url('/images/collections/man.jpg');
 		background-position: left, right;
 		background-size: 600px 100%, 600px 100%;
 		background-repeat: no-repeat, no-repeat;

@@ -47,7 +47,7 @@
 					</span>
 					<TooltipSize :isShownTooltip="isShownTooltip" @closeTooltip="$emit('closeTooltip')"/>
 				</div>
-				<img :src="isAdded ? 'src/assets/images/checked.svg' : 'src/assets/images/plus.svg'" alt="Add to cart" @click="$emit('onClickAdd')">
+				<img :src="isAdded ? '/images/checked.svg' : '/images/plus.svg'" alt="Add to cart" @click="$emit('onClickAdd')">
 			</div>
 		</footer>
 	</div>

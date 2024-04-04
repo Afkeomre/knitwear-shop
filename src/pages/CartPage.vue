@@ -67,12 +67,12 @@
 			<div class="container">
 				<h1 class="cart__title title">Cart</h1>
 				<InfoBlock v-if="cart.length === 0 && !orderId" 
-					imgUrl="src/assets/images/empty-cart.png"
+					imgUrl="/images/empty-cart.png"
 					title="Your cart is empty"
 					description="Add some products from our shop"
 				/>
 				<InfoBlock v-if="orderId" 
-					imgUrl="src/assets/images/order-success.png"
+					imgUrl="/images/order-success.png"
 					:title="`Your order №${orderId} is succesfully created`"
 					description="We are already working on your order. Thank you for choosing us!"
 				/>

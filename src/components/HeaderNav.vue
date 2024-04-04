@@ -15,7 +15,7 @@
 		<div class="header__nav-logo-group">
 			<router-link to="/">
 				<a href="#">
-					<img src="../assets/images/logo.svg" alt="Logo">
+					<img src="/images/logo.svg" alt="Logo">
 				</a>
 			</router-link>
 			
@@ -45,7 +45,7 @@
 				</select> -->
 				<router-link to="/cart">
 					<div class="header__nav-cart">
-						<img src="../assets/images/cart.svg" alt="Cart">
+						<img src="/images/cart.svg" alt="Cart">
 						<div v-if="cart.length" class="cart-img__count">{{ cart.length }}</div>
 					</div>
 				</router-link>

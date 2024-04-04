@@ -9,7 +9,7 @@
 				<div class="footer__logo">
 					<router-link to="/">
 						<a href="#">
-							<img src="../assets/images/logo-black.svg" alt="Logo">
+							<img src="/images/logo-black.svg" alt="Logo">
 						</a>
 					</router-link>
 				</div>
@@ -49,8 +49,8 @@
 					</ul>
 					<AcceptCheckbox class="footer__info-checkbox"/>
 					<ul class="footer__info-social">
-						<li><a href="#"><img src="../assets/images/icon-instagram.svg" alt="Instagram"></a></li>
-						<li><a href="#"><img src="../assets/images/icon-in.svg" alt="LinkedIn"></a></li>
+						<li><a href="#"><img src="/images/icon-instagram.svg" alt="Instagram"></a></li>
+						<li><a href="#"><img src="/images/icon-in.svg" alt="LinkedIn"></a></li>
 					</ul>
 				</div>
 			</div>
