@@ -11,14 +11,13 @@ export async function useSortAndSearch(url, array, sort, search) {
     }
 
     const response = await fetch(url + '?' + new URLSearchParams(params));
-
-    if (response.status === 429) {
+    const data = await response.json();
+    array.value = data;
+  } catch (err) {
+    if (err.status === 429) {
       await delay(500);
     } else {
-      const data = await response.json();
-      array.value = data;
+      console.log(err);
     }
-  } catch (err) {
-    console.log(err);
   }
 }
