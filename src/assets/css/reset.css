@@ -47,6 +47,10 @@ img, svg {
 	height: auto;
 }
 
+img {
+	vertical-align: top;
+}
+
 address {
   font-style: normal;
 }

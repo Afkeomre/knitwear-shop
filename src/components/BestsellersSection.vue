@@ -54,6 +54,9 @@
 		font-size: 24px;
 	}
 	.slider-btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		position: absolute;
 		width: 40px;
 		height: 40px;
