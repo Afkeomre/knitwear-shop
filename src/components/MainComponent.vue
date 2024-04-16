@@ -13,7 +13,3 @@
 		<HistorySection />
 	</main>
 </template>
-
-<style>
-
-</style>

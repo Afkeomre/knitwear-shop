@@ -57,7 +57,6 @@
 	.card {
 		max-width: 280px;
 		padding-bottom: 8px;
-
 	}
 	.card__img {
 		width: 280px;

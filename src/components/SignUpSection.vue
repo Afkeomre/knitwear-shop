@@ -36,5 +36,4 @@
 		font-size: 11px;
 		justify-content: center;
 	}
-
 </style>

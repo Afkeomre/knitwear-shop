@@ -30,14 +30,10 @@
 			<div class="bestsellers__content">
 				<BestsellersList :initialSlide="initialSlide" :lastSlide="lastSlide" />
 				<button :disabled="initialSlide === 0" @click="goPrew" type="button" class="slider-btn">
-					<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M4.59429 9.07168L0 3.69568L0.822857 1.67969L4.73143 6.15968L8.64 1.67969L9.48571 3.69568L4.89143 9.07168H4.59429Z" fill="white"/>
-					</svg>
+					<img src="/images/arrow-down.svg" alt="Arrow">
 				</button>
 				<button :disabled="lastSlide === bestsellers.length - 1" @click="goNext" type="button" class="slider-btn">
-					<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M4.59429 9.07168L0 3.69568L0.822857 1.67969L4.73143 6.15968L8.64 1.67969L9.48571 3.69568L4.89143 9.07168H4.59429Z" fill="white"/>
-					</svg>
+					<img src="/images/arrow-down.svg" alt="Arrow">
 				</button>
 			</div>
 		</div>
@@ -73,10 +69,10 @@
 		top: 30%;
 		right: -2%;
 	}
-	.slider-btn:first-of-type svg {
+	.slider-btn:first-of-type img {
 		transform: rotate(90deg);
 	}
-	.slider-btn:last-of-type svg {
+	.slider-btn:last-of-type img {
 		transform: rotate(-90deg);
 	}
 	.slider-btn:hover {
@@ -97,5 +93,4 @@
 	.slider-btn:last-of-type:hover:disabled {
 		transform: none;
 	}
-
 </style>

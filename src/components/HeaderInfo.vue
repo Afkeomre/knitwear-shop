@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
 	<div id="intro" class="header__info">
 		<div class="header__info-content">
@@ -25,7 +21,6 @@
 		color: #EBECDC;
 		padding: 63px 99px;
 	}
-
 	.header__info-subtitle {
 		text-transform: uppercase;
 		margin-bottom: 18px;

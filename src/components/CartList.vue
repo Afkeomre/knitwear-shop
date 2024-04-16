@@ -3,7 +3,6 @@
 	import CartItem from '@/components/CartItem.vue';
 
 	const { cart, removeFromCart } = inject('cart');
-
 </script>
 
 <template>

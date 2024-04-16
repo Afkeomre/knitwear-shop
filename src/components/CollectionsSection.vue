@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
 	<section id="collections" class="collections">
 		<div class="container">
@@ -22,6 +18,14 @@
 </template>
 
 <style>
+	.collections {
+		max-width: 1200px;
+		margin: 0 auto;
+		background-image: url('/images/collections/woman.jpg'), url('/images/collections/man.jpg');
+		background-position: left, right;
+		background-size: 600px 100%, 600px 100%;
+		background-repeat: no-repeat, no-repeat;
+	}
 	.collections__content{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -31,14 +35,6 @@
 		text-align: center;
 		font-size: 36px;
 		color: #fff;
-	}
-	.collections {
-		max-width: 1200px;
-		margin: 0 auto;
-		background-image: url('/images/collections/woman.jpg'), url('/images/collections/man.jpg');
-		background-position: left, right;
-		background-size: 600px 100%, 600px 100%;
-		background-repeat: no-repeat, no-repeat;
 	}
 	.collections__women,
 	.collections__men {

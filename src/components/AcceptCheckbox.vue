@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
 	<div class="checkbox-container">
 		<input type="checkbox" id="checkbox">

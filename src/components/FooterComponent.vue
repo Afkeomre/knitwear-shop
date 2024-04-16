@@ -1,5 +1,40 @@
 <script setup>
 	import AcceptCheckbox from '@/components/AcceptCheckbox.vue';
+
+	const policyNav = [
+		{
+			title: 'Stores and Showroom',
+			url: '#'
+		},
+		{
+			title: 'Shipping & Delivery',
+			url: '#'
+		},
+		{
+			title: 'Returns & Exhanges',
+			url: '#'
+		},
+		{
+			title: 'Terms & Conditions',
+			url: '#'
+		},
+		{
+			title: 'Privacy Policy',
+			url: '#'
+		},
+		{
+			title: 'Cookies',
+			url: '#'
+		},
+		{
+			title: 'Customer service',
+			url: '#'
+		},
+		{
+			title: 'Devold of Norway',
+			url: '#'
+		}
+	];
 </script>
 
 <template>
@@ -23,22 +58,15 @@
 						</router-link>
 					</ul>
 					<ul class="footer__menu-nav">
-						<li><a href="#">Our Heritage</a></li>
-						<li><a href="#">Care</a></li>
-						<li><a href="#">Collections</a></li>
-						<li><a href="#">Responsibility</a></li>
+						<li><a href="#heritage">Our Heritage</a></li>
+						<li><a href="#intro">Care</a></li>
+						<li><a href="#collections">Collections</a></li>
+						<li><a href="#policy">Responsibility</a></li>
 					</ul>
 				</div>
 				<div class="footer__policy">
 					<ul class="footer__policy-list">
-						<li><a href="#">Stores and Showroom</a></li>
-						<li><a href="#">Shipping & Delivery</a></li>
-						<li><a href="#">Returns & Exhanges</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Cookies</a></li>
-						<li><a href="#">Customer service</a></li>
-						<li><a href="#">Devold of Norway</a></li>
+						<li v-for="item in policyNav" :key="item"><a :href="item.url">{{ item.title }}</a></li>
 					</ul>
 				</div>
 				<div class="footer__info">

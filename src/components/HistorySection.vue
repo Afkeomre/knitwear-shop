@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
 	<section id="heritage" class="history">
 		<div class="container">

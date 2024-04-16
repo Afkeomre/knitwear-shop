@@ -61,8 +61,3 @@
 		/>
 	</main>
 </template>
-
-<style>
-
-
-</style>

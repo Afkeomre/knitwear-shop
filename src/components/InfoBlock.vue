@@ -18,7 +18,7 @@
 </template>
 
 <style>
-	.info-block{
+	.info-block {
 		padding: 60px 0 100px;
 		display: flex;
 		flex-direction: column;

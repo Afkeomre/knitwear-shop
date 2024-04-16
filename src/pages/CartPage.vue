@@ -153,5 +153,4 @@
 		border-bottom: 1px dashed #000;
 		align-self: flex-end;
 	}
-
 </style>

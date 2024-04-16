@@ -60,7 +60,3 @@
 		/>
 	</main>
 </template>
-
-<style>
-
-</style>

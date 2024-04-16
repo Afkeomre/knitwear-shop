@@ -7,7 +7,6 @@
 			cart.value = JSON.parse(localStorage.getItem('cart'));
 		}
 	});
-
 </script>
 
 <template>
@@ -61,33 +60,28 @@
 		height: 80px;
 		color: #fff;
 	}
-
 	.header__nav-logo-group {
 		display: flex;
 		align-items: center;
 		gap: 94px;
 	}
-
 	.header__nav-catalog {
 		display: flex;
 		gap: 16px;
 		font-size: 32px;
 	}
-
 	.header__nav-menu-group {
 		display: flex;
 		justify-content: space-between;
 		/* gap: 36px; */
 		padding: 0 6px;
 	}
-
 	.header__nav-list {
 		display: flex;
 		align-items: center;
 		gap: 36px;
 		text-transform: uppercase;
 	}
-
 	.header__nav-select {
 		display: flex;
 		align-items: center;
@@ -103,9 +97,6 @@
 		outline: none;
 		background-color: #6889a5;
 	} */
-	.no-wrap {
-		white-space: nowrap;
-	}
 	.cart-img__count {
 		position: absolute;
 		bottom: -20%;
@@ -118,5 +109,4 @@
 		font-size: 12px;
 		border-radius: 50%;
 	}
-
 </style>

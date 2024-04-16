@@ -69,15 +69,6 @@
 		gap: 10px;
 		font-size: 14px;
 	}
-	.shop__filters select,
-	.shop__top-group input {
-		min-height: 36px;
-		min-width: 250px;
-		padding: 8px 10px;
-		border: 1px solid #aaaaaa;
-		border-radius: 6px;
-		outline: none;
-	}
 	.shop__top-group input {
 		padding-left: 32px;
 		background-image: url('/images/search.svg');
@@ -100,6 +91,4 @@
 		padding: 20px;
 		min-height: 400px;
 	}
-
-
 </style>
