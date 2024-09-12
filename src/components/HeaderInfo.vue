@@ -12,34 +12,3 @@
 		</div>
 	</div>
 </template>
-
-<style scoped>
-	.header__info {
-		position: relative;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		color: #EBECDC;
-		padding: 63px 99px;
-	}
-	.header__info-subtitle {
-		text-transform: uppercase;
-		margin-bottom: 18px;
-	}
-	.header__info-title {
-		font-size: 48px;
-		max-width: 247px;
-		margin-bottom: 30px;
-	}
-	.header__info-text {
-		font-size: 16px;
-		max-width: 372px;
-		line-height: 1.2;
-	}
-	.header__info-img {
-		width: 600px;
-		height: 750px;
-		position: absolute;
-		top: 0;
-		left: 50%;
-	}
-</style>

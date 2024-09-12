@@ -1,0 +1,5 @@
+.bestsellers__list {
+	display: flex;
+	gap: 16px;
+	border-bottom: 1px solid #2d1e1e;
+}

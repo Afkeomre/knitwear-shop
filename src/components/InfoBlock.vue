@@ -16,30 +16,3 @@
 		</router-link>
 	</div>
 </template>
-
-<style>
-	.info-block {
-		padding: 60px 0 100px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		gap: 15px;
-		border-bottom: 1px solid #2d1e1e;
-		text-align: center;	
-	}
-	.info-block__img {
-		width: 80px;
-		height: 90px;
-	}
-	.info-block__title{
-		font-size: 30px;
-	}
-	.info-block__text {
-		margin-bottom: 15px;
-		font-size: 20px;
-	}
-	/* .info-block__btn {
-		font-size: 16px;
-	} */
-</style>

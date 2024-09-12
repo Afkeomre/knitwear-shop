@@ -18,12 +18,3 @@
 		/>
 	</div>
 </template>
-
-<style>
-	.cart__list {
-		display: flex;
-		flex-direction: column;
-		gap: 40px;
-		margin-bottom: 100px;
-	}
-</style>

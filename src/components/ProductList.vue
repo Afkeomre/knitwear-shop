@@ -26,12 +26,3 @@
 		/>
 	</div>
 </template>
-
-<style>
-	.product-list {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		row-gap: 60px;
-		column-gap: 40px;
-	}
-</style>

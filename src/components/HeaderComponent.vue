@@ -11,11 +11,3 @@
 		</div>
 	</header>
 </template>
-
-<style scoped>
-	.header {
-		height: 892px;
-		color: #fff;
-		background-color: #6889A5;
-	}
-</style>

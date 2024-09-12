@@ -16,24 +16,3 @@
 		</div>
 	</section>
 </template>
-
-<style scoped>
-	.signup {
-		padding: 64px 0 80px;
-		text-transform: uppercase;
-		text-align: center;
-		background-color: #ebecdc;
-	}
-	.signup__text {
-		margin-bottom: 50px;
-	}
-	.signup__link {
-		display: inline-block;
-		margin-bottom: 19px;
-		font-size: 16px;
-	}
-	.signup__checkbox {
-		font-size: 11px;
-		justify-content: center;
-	}
-</style>

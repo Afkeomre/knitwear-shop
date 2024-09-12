@@ -1,52 +1,22 @@
-@import 'reset';
+@import 'base/reset';
+@import 'base/base';
 
-#app {
-	height: 100%;
-	font-family: Roboto, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 13px;
-}
-a:hover {
-	text-decoration: underline;
-}
-.wrapper {
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-	/* overflow: hidden; */
-	background-color: #6889A5;
-}
-.container {
-	width: 1168px;
-	margin: 0 auto;
-}
-.main-collection,
-.main-cart {
-	flex: 1 1 auto;
-	background-color: #fff;
-}
-.title {
-	font-size: 48px;
-}
-input[type="text"],
-select {
-	min-height: 36px;
-	min-width: 250px;
-	padding: 8px 10px;
-	border: 1px solid #aaaaaa;
-	border-radius: 6px;
-	outline: none;
-}
-.btn {
-	font-size: 18px;
-	padding: 12px 24px;
-	color: #fff;
-	background-color: #6889a5;
-}
-.btn:hover {
-	background-color: #536a7a;
-}
-.no-wrap {
-	white-space: nowrap;
-}
+@import 'components/accept-checkbox';
+@import 'components/bestsellers-list';
+@import 'components/bestsellers-section';
+@import 'components/cart-item';
+@import 'components/cart-list';
+@import 'components/collections-section';
+@import 'components/footer-component';
+@import 'components/header-component';
+@import 'components/header-info';
+@import 'components/header-nav';
+@import 'components/history-section';
+@import 'components/info-block';
+@import 'components/loader';
+@import 'components/product-card';
+@import 'components/product-list';
+@import 'components/shop-section';
+@import 'components/sign-up-section';
+@import 'components/tooltip-size';
+@import 'components/cart-page';
