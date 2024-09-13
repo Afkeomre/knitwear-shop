@@ -2,7 +2,7 @@
 
 This project is a clothing store application built with Vue.js, using the Composition API. It employs Vue components to implement the user interface and functionality. Vue Router provides page navigation.
 
-## Demo
+## Website
 
 You can try the application online [here](https://knitwear-shop.vercel.app/).
 
