@@ -1,63 +1,52 @@
-# Knitwear Shop
+# Магазин трикотажа
 
-This project is a clothing store application built with Vue.js, using the Composition API. It employs Vue components to implement the user interface and functionality. Vue Router provides page navigation.
+Интернет-магазин на Vue.js с использованием Composition API. UI и основная функциональность реализованы с помощью компонентного подхода. Vue Router обеспечивает навигацию по страницам.
 
-## Website
+## Веб-сайт
 
-You can try the application online [here](https://knitwear-shop.vercel.app/).
+Вы можете ознакомиться с сайтом [здесь](https://knitwear-shop.vercel.app/).
 
-## Features
- - **Pages**
-   - Home: includes a selection of bestseller products. Users can add items to the cart directly from this section.
-   - Women's Clothing: allows users to browse, search, and filter women's clothing by price or name and add it to the cart.
-   - Men's Clothing: similar to the women’s section, but for men's clothing.
-   - Cart: shows items added to the cart as well as their quantities and total cost. Users can remove items and proceed with checkout.
+## Особенности
+ - **Страницы**
+   - Главная: содержит подборку товаров-бестселлеров. Пользователи могут добавлять товары в корзину непосредственно из этого раздела.
+   - Женская одежда: пользователи могут просматривать, искать и сортировать женскую одежду по цене или названию и добавлять ее в корзину.
+   - Мужская одежда: повторяет функционал раздела с женской одеждой.
+   - Корзина: показывает товары, добавленные в корзину, а также их количество и общую стоимость. Пользователи могут удалять товары и оформлять заказ.
   
- - **Product Management**
-   - Add products from the home page or the men’s/women’s clothing pages. A size must be selected before adding an item to the cart; otherwise, a warning will be displayed.
-   - Items added from the bestseller section are also marked as added on the men’s or women’s clothing page.
+ - **Управление товарами**
+   - Добавляйте товары с домашней страницы или со страницы мужской/женской одежды. Перед добавлением товара в корзину необходимо выбрать размер, в противном случае на экран будет выведено предупреждение.
+   - Товары, добавленные из раздела "бестселлеры", также помечаются как добавленные на странице мужской или женской одежды.
 
- - **Cart Functionality**
-   - Displays a summary of items, quantities, and total price.
-   - Applies a discount for orders of more than 5 items.
-   - Items can be removed from the cart.
-   - Orders can be placed, and users receive feedback on order success or failure.
-   - Cart data persists across page navigations using local storage.
-   - After a successful order the cart is cleared for new purchases.
+ - **Функциональность корзины**
+   - Отображает сводную информацию о товарах, количестве и общей цене.
+   - Скидка предоставляется при заказе более 5 товаров.
+   - Товары могут быть удалены из корзины.
+   - Пользователи могут отправлять информацию о заказах на сервер и получать уведомления об успешной отправке или ошибке.
+   - Данные о корзине сохраняются при переходе по страницам с помощью localStorage.
+   - После успешного выполнения заказа корзина очищается для новых покупок.
   
- - **Search and Filtering**
-   - Available on the women's and men's clothing pages.
-   - Allows filtering by price range and product name.
+ - **Поиск и сортировка**
+   - Доступны на страницах женской и мужской одежды.
+   - Сортировка выполняется по цене или названию продукта.
   
-## Technical Details
- - Developed with Vue.js using the Composition API.
- - Vue Router manages page navigation.
- - Product data is fetched from a server.
+## Технические подробности
+ - Разработан с помощью Vue.js с использованием Composition AP.
+ - Vue Router управляет навигацией по страницам.
+ - Данные о товарах загружаются с сервера.
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🚀 Запуск проекта
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+### Установка зависимостей
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+### Запуск в режиме разработки
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
+### Сборка проекта для рабочей версии
 ```sh
 npm run build
 ```
